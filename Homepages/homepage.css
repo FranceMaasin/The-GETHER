@@ -810,3 +810,21 @@ main .container .right {
         width: 92vw;
     }
 }
+
+/*=================REACT BUTTONS============ */
+
+.btn1 {
+    background: transparent;
+    border: none;
+    margin: 1px;
+    font-size: 40px;
+    outline: none;
+    color: grey;
+    margin-right: 50px;
+
+}
+
+.btn1 i:hover {
+    cursor: pointer;
+
+}
