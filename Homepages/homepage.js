@@ -20,6 +20,10 @@ const Bg2 = document.querySelector('.bg-2');
 const Bg3 = document.querySelector('.bg-3');
 
 
+
+
+
+
 // remove active class from all menu items
 
 const changeActiveItem = () => {
@@ -216,4 +220,104 @@ Bg3.addEventListener('click', () => {
     changeBG();
 });
 
-//END
+
+//REACT BUTTONS
+
+var btnvar1 = document.getElementById('btnh1');
+
+function Toggle1() {
+    if (btnvar1.style.color == "red") {
+        btnvar1.style.color = "grey"
+    }
+    else {
+        btnvar1.style.color = "red"
+    }
+}
+
+var btnvar2 = document.getElementById('btnh2');
+
+function Toggle2() {
+    if (btnvar2.style.color == "violet") {
+        btnvar2.style.color = "grey"
+    }
+    else {
+        btnvar2.style.color = "violet"
+    }
+}
+
+var btnvar3 = document.getElementById('btnh3');
+
+function Toggle3() {
+    if (btnvar3.style.color == "green") {
+        btnvar3.style.color = "grey"
+    }
+    else {
+        btnvar3.style.color = "green"
+    }
+}
+
+var btnvar4 = document.getElementById('btnh4');
+
+function Toggle4() {
+    if (btnvar4.style.color == "red") {
+        btnvar4.style.color = "grey"
+    }
+    else {
+        btnvar4.style.color = "red"
+    }
+}
+
+var btnvar5 = document.getElementById('btnh5');
+
+function Toggle5() {
+    if (btnvar5.style.color == "violet") {
+        btnvar5.style.color = "grey"
+    }
+    else {
+        btnvar5.style.color = "violet"
+    }
+}
+
+var btnvar6 = document.getElementById('btnh6');
+
+function Toggle6() {
+    if (btnvar6.style.color == "green") {
+        btnvar6.style.color = "grey"
+    }
+    else {
+        btnvar6.style.color = "green"
+    }
+}
+
+var btnvar7 = document.getElementById('btnh7');
+
+function Toggle7() {
+    if (btnvar7.style.color == "red") {
+        btnvar7.style.color = "grey"
+    }
+    else {
+        btnvar7.style.color = "red"
+    }
+}
+
+var btnvar8 = document.getElementById('btnh8');
+
+function Toggle8() {
+    if (btnvar8.style.color == "violet") {
+        btnvar8.style.color = "grey"
+    }
+    else {
+        btnvar8.style.color = "violet"
+    }
+}
+
+var btnvar9 = document.getElementById('btnh9');
+
+function Toggle9() {
+    if (btnvar9.style.color == "red") {
+        btnvar9.style.color = "grey"
+    }
+    else {
+        btnvar9.style.color = "red"
+    }
+}
